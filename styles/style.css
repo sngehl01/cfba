@@ -1,0 +1,44 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+th {align-content: center;}
+td {text-align: center;}
+tr {align-content: center;}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#bannerimage {
+    width: 100%;
+    background-image: url("../resources/banner.jpg");
+    height: 405px;
+    background-color: purple;
+    background-position: center;
+  }
+
+  .square_btn {
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #67c5ff;
+    border: solid 2px #67c5ff;
+    border-radius: 3px;
+}
+
+.square_btn:hover {
+    background: #67c5ff;
+    color: white;
+}
+
+.square_btn_current {
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: white;
+    background: #67c5ff;
+    border: solid 2px #67c5ff;
+    border-radius: 3px;
+}
